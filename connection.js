@@ -17,7 +17,7 @@ mongoose.connect(
   //   `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PW}@cluster0.2chji07.mongodb.net/?retryWrites=true&w=majority`,
   err => {
     if (err) console.log(err);
-    else console.log('mongdb is connected', mongoURI);
+    else console.log('mongdb is connected');
     // console.log('connected to mongodb');
   }
 );
